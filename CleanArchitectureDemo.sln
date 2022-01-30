@@ -1,0 +1,43 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32112.339
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Enterprise Business Rules", "1 - Enterprise Business Rules", "{3FE56986-B3A5-49DD-9CC3-224864242BF3}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application Business Rules", "2 - Application Business Rules", "{DB3A504B-C64B-4ABE-9295-16C6102C8EA2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Interface Adapters", "3 - Interface Adapters", "{5E4D5E0A-33FE-456D-8ECA-7A568E941092}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Frameworks And Drives", "4 - Frameworks And Drives", "{074946DE-0429-436B-941D-64902086B5EB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind.Sales.BusinessObjects", "Northwind.Sales.BusinessObjects\Northwind.Sales.BusinessObjects.csproj", "{AC4CEC24-48C8-432A-BD12-2CE6D5C7C98A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Northwind.Sales.Controllers", "Northwind.Sales.Controllers\Northwind.Sales.Controllers.csproj", "{D51FA3F2-0D16-4573-A3DF-B123D975D804}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{AC4CEC24-48C8-432A-BD12-2CE6D5C7C98A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC4CEC24-48C8-432A-BD12-2CE6D5C7C98A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC4CEC24-48C8-432A-BD12-2CE6D5C7C98A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC4CEC24-48C8-432A-BD12-2CE6D5C7C98A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D51FA3F2-0D16-4573-A3DF-B123D975D804}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D51FA3F2-0D16-4573-A3DF-B123D975D804}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D51FA3F2-0D16-4573-A3DF-B123D975D804}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D51FA3F2-0D16-4573-A3DF-B123D975D804}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AC4CEC24-48C8-432A-BD12-2CE6D5C7C98A} = {DB3A504B-C64B-4ABE-9295-16C6102C8EA2}
+		{D51FA3F2-0D16-4573-A3DF-B123D975D804} = {5E4D5E0A-33FE-456D-8ECA-7A568E941092}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {F4AB0ED5-17BA-4A5C-833D-57F5751CDBC7}
+	EndGlobalSection
+EndGlobal
