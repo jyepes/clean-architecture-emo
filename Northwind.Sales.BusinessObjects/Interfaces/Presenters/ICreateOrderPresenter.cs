@@ -1,6 +1,4 @@
-﻿
-
-namespace Northwind.Sales.BusinessObjects.Interfaces.Presenters
+﻿namespace Northwind.Sales.BusinessObjects.Interfaces.Presenters
 {
     public interface ICreateOrderPresenter: ICreateOrderOutputPort
     {

@@ -1,4 +1,4 @@
-﻿namespace Northwind.Sales.BusinessObjects.Interfaces.Controllers
+﻿namespace Northwind.Sales.BusinessObjects.Interfaces.Ports
 {
     public interface ICreateOrderOutputPort
     {
